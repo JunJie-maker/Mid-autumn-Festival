@@ -1,0 +1,286 @@
+<!--
+ * @Author: [JunJie-maker] [2573014631@qq.com]
+ * @Date: 2022-08-31 22:03:01
+ * @LastEditors: [JunJie-maker] [2573014631@qq.com]
+ * @LastEditTime: 2022-09-06 14:33:00
+ * @FilePath: \中秋节项目\index.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=NO">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>中秋节佳节倍思亲</title>
+</head>
+
+<body class="clearfix">
+    <div class="container_fluid pink clearfix">
+        <!-- 导航条 -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <p class="navbar-brand row logo_bg2">
+                <img class="img-responsive logo" src="./img/cloud2.png" alt="">
+            </p>
+            <p class="navbar-brand row logo_bg3">
+                <img class="img-responsive logo" src="./img/cloud2.png" alt="">
+            </p>
+            <p class="navbar-brand row logo_bg4">
+                <img class="img-responsive logo" src="./img/cloud3.png" alt="">
+            </p>
+            <p class="navbar-brand row logo_bg5">
+                <img class="img-responsive logo" src="./img/cloud2.png" alt="">
+            </p>
+            <p class="navbar-brand row logo_bg6">
+                <img class="img-responsive logo" src="./img/cloud2.png" alt="">
+            </p>
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header navbar-left">
+                    <a class="navbar-brand row logo_bg1" href="#" id="logo">
+                        <img class="img-responsive logo" src="./img/moon.png" alt="">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">中秋节快乐</a></li>
+                        <li class="user-name"><a id="user_name" href="#"
+                                style="color: #f7e1ac;cursor:default;">USERNAME</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!-- 中心 -->
+        <div class="contentmiddle clearfix">
+            <!-- 中心内容 -->
+            <div class="jumbotron jumb1 clearfix">
+                <div class="jumbotron-top">
+                    <div class="left_bor"></div>
+                    <div class="right_bor"></div>
+                    <video id="video" src="./video/video_bg.mp4" autoplay muted></video>
+                    <div class="left" id="left">
+                        <img class="img-responsive " src="./img/bg_left1.png" alt="">
+                        <div class="left_border">
+                            <img class="img-responsive" src="./img/bg_left2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="right" id="right">
+                        <img class="img-responsive " src="./img/bg_right.png" alt="">
+                    </div>
+                    <div class="content">
+                        <img class="img-responsive" src="./img/content.gif" alt="">
+                        <div class="moonpie">
+                            <img class="img-responsive act" id="img1" src="./img/moonpie2.png" alt="">
+                            <img class="img-responsive" id="img2" src="./img/moonpie3.png" alt="">
+                            <div class="eat" id="eat">
+                                <div class="pie">
+                                    <img class="img-responsive " id="img3" src="./img/moonpie.png" alt="">
+                                </div>
+                                <div class="tool " id="tool">
+                                    <img class="img-responsive " id="img4" src="./img/tool.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <button id="button2" class="rotate_bg" type="button">
+                            <div class="rotate">
+                                <div class="button2" id="btn2_bg"></div>
+                                <div class="button4" id="btn4_bg"></div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="jumbotron-bottom">
+                    <button class="button1 act" id="button1" type="button"></button>
+                    <button class="button1_1 " id="button1_1" type="button"></button>
+                </div>
+            </div>
+            <!-- 留名弹窗 -->
+            <div class="jumbotron jumb2 clearfix">
+                <div class="pop" id="pop">
+                    <div class="top" id="top1">
+                        <input class="form-control" type="text" name="username" id="username" value="阁下请输入4~12位的大名"
+                            onfocus="inInput(this)" onblur="outInput(this)">
+                    </div>
+                    <div class="music">
+                        <p class="hint">
+                            <span class="glyphicon glyphicon-info-sign"></span>&nbsp;思考的时候，不妨让音乐带给你灵感
+                        </p>
+
+                        <button class="music_btn" id="musicbtn">
+                            <audio id="music" src="./audio/music.mp3" loop></audio>
+                            <img id="music2" class="img-responsive act" src="./img/music2.png" alt="">
+                            <img id="music1" class="img-responsive " src="./img/music1.png" alt="">
+                        </button>
+                    </div>
+                    <div class="bottom ">
+                        <button class="sumbit " id="sumbit">登录</button>
+                    </div>
+                    <div class="rate_bg1">
+                        <div class="rate_bg" id="ratebg">
+                            <ul class="ul1" id="ul1">
+                                <li class="li1"></li>
+                                <li class="li1"></li>
+                                <li class="li1"></li>
+                                <li class="li1"></li>
+                                <li class="li1"></li>
+                                <li class="li1"></li>
+                                <li class="li1"></li>
+                                <li class="li1"></li>
+                            </ul>
+                            <ul class="ul1" id="ul2">
+                                <li class="li2"></li>
+                                <li class="li2"></li>
+                                <li class="li2"></li>
+                                <li class="li2"></li>
+                                <li class="li2"></li>
+                                <li class="li2"></li>
+                                <li class="li2"></li>
+                                <li class="li2"></li>
+                            </ul>
+                            <ul class="ul1" id="ul3">
+                                <li class="li3"></li>
+                                <li class="li3"></li>
+                                <li class="li3"></li>
+                                <li class="li3"></li>
+                                <li class="li3"></li>
+                                <li class="li3"></li>
+                                <li class="li3"></li>
+                                <li class="li3"></li>
+                            </ul>
+                            <ul class="ul1" id="ul4">
+                                <li class="li4"></li>
+                                <li class="li4"></li>
+                                <li class="li4"></li>
+                                <li class="li4"></li>
+                                <li class="li4"></li>
+                                <li class="li4"></li>
+                                <li class="li4"></li>
+                                <li class="li4"></li>
+                            </ul>
+                            <ul class="ul1" id="ul5">
+                                <li class="li5"></li>
+                                <li class="li5"></li>
+                                <li class="li5"></li>
+                                <li class="li5"></li>
+                                <li class="li5"></li>
+                                <li class="li5"></li>
+                                <li class="li5"></li>
+                                <li class="li5"></li>
+                            </ul>
+                            <ul class="ul1" id="ul6">
+                                <li class="li6"></li>
+                                <li class="li6"></li>
+                                <li class="li6"></li>
+                                <li class="li6"></li>
+                                <li class="li6"></li>
+                                <li class="li6"></li>
+                                <li class="li6"></li>
+                                <li class="li6"></li>
+                            </ul>
+                            <ul class="ul1" id="ul7">
+                                <li class="li7"></li>
+                                <li class="li7"></li>
+                                <li class="li7"></li>
+                                <li class="li7"></li>
+                                <li class="li7"></li>
+                                <li class="li7"></li>
+                                <li class="li7"></li>
+                                <li class="li7"></li>
+                            </ul>
+                            <ul class="ul1" id="ul8">
+                                <li class="li8"></li>
+                                <li class="li8"></li>
+                                <li class="li8"></li>
+                                <li class="li8"></li>
+                                <li class="li8"></li>
+                                <li class="li8"></li>
+                                <li class="li8"></li>
+                                <li class="li8"></li>
+                            </ul>
+                            <ul class="ul1" id="ul9">
+                                <li class="li9"></li>
+                                <li class="li9"></li>
+                                <li class="li9"></li>
+                                <li class="li9"></li>
+                                <li class="li9"></li>
+                                <li class="li9"></li>
+                                <li class="li9"></li>
+                                <li class="li9"></li>
+                            </ul>
+                            <ul class="ul1" id="ul10">
+                                <li class="li10"></li>
+                                <li class="li10"></li>
+                                <li class="li10"></li>
+                                <li class="li10"></li>
+                                <li class="li10"></li>
+                                <li class="li10"></li>
+                                <li class="li10"></li>
+                                <li class="li10"></li>
+                            </ul>
+                            <ul class="ul1" id="ul11">
+                                <li class="li11"></li>
+                                <li class="li11"></li>
+                                <li class="li11"></li>
+                                <li class="li11"></li>
+                                <li class="li11"></li>
+                                <li class="li11"></li>
+                                <li class="li11"></li>
+                                <li class="li11"></li>
+                            </ul>
+                            <ul class="ul1" id="ul12">
+                                <li class="li12"></li>
+                                <li class="li12"></li>
+                                <li class="li12"></li>
+                                <li class="li12"></li>
+                                <li class="li12"></li>
+                                <li class="li12"></li>
+                                <li class="li12"></li>
+                                <li class="li12"></li>
+                            </ul>
+                            <ul class="ul1" id="ul13">
+                                <li class="li13"></li>
+                                <li class="li13"></li>
+                                <li class="li13"></li>
+                                <li class="li13"></li>
+                                <li class="li13"></li>
+                                <li class="li13"></li>
+                                <li class="li13"></li>
+                                <li class="li13"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="ribt" id="ribt">
+                        <img src="./img/rabbit.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- 版权弹窗 -->
+        <div class="copyright" id="copyright">
+            <ul>
+                <li><a href="#">关于网站</a>I</li>
+                <li><a href="https://blog.csdn.net/IAMLSD550?spm=1010.2135.3001.5343">关于开发者</a>I</li>
+                <li><a href="#">CSDN博文</a>I</li>
+                <li><a href="#">Github仓库</a>I</li>
+                <li><a href="#">Github文件</a>I</li>
+                <li><a href="">网站导航</a>I</li>
+                <li><a href="https://blog.csdn.net/IAMLSD550?spm=1010.2135.3001.5343">联系开发者</a></li>
+            </ul>
+            <img src="./img/copyright.png" alt="">
+            <span>COPYRIGHT © 2022-09-05 XIAOCHAIAICHENGXU.All rights reserved</span>
+        </div>
+    </div>
+
+    <script src="http://chaiquan3.freevar.com/js/flexible.js"></script>
+    <script src="http://chaiquan3.freevar.com/js/index.js"></script>
+</body>
+
+</html>
